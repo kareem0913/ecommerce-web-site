@@ -1,0 +1,80 @@
+
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.header{
+    border : solid 1px #999;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+    width : 100%;
+}
+table{
+    width : 100%;
+}
+table th, td{
+    border : solid  0.5px #999;
+}
+
+/* [pagination] */
+#pagination ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+#pagination ul li{
+    padding: 4px 13px;
+    color: white;
+    transform: translate(-100%, -50%);
+}
+.pag-active{
+    background-color: white;
+    color: #e64f3f !important ;
+    border-radius: 50%;
+}
+
+/* add product  */
+.add-ons{
+    word-break: break-word;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap : 10px;
+}
+.add-ons span{
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border-radius: 21%;
+}
+
+/* admin profile  */
+.admin-image{
+    position: relative;
+    width: 200px;
+    margin: auto;
+}
+.admin-image:hover{
+    filter: grayscale(100%);
+}
+.close{
+    position: absolute;
+    display: none;
+    top: 33%;
+    left: 40%;
+    cursor: pointer;
+    font-size: 3em;
+}
+.admin-image:hover .close{
+    display: block;
+}
+

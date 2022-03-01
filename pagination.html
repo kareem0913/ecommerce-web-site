@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet/less" type="text/css" href="node_modules\paginationjs\src\pagination.less" />
+        <style>
+            .flexx{
+                display : flex;
+                flex-decoration : row;
+                list-style : none;
+            }
+            li{
+                padding: 20px;
+            }
+            .colorr{
+                background-color : red;
+                border-raduies : 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="content"></div>
+        <div id="demo"></div>
+        <p style="margin-top:1000px; margin-bottom:0" id='para'>mohamed</p>
+        <script src="vendor/jquery/jquery-3.2.1.min.js" charset="utf-8"></script>
+        <script src="node_modules\paginationjs\src\pagination.js" charset="utf-8"></script>
+        <script>
+        const target = {
+              message1: "hello",
+              message2: "everyone"
+            };
+
+            const handler1 = {message1:'kdkdk'};
+
+            const proxy1 = new Proxy(target, handler1);
+            console.log(proxy1);
+        </script>
+    </body>
+</html>
