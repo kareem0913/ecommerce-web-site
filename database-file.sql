@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 01, 2022 at 05:00 PM
+-- Generation Time: Mar 01, 2022 at 09:18 PM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -45,13 +45,10 @@ CREATE TABLE `administration` (
 --
 
 INSERT INTO `administration` (`id`, `name`, `email`, `password`, `adress`, `gander`, `priv`, `start_date`, `age`, `image`) VALUES
-(196, 'kareem', 'kareem.345@yahoo.com', 'fb3d6ab2375fb023b3c904838590e5ad', 'damita', 0, 200, '2021-11-10', 34, '6214f549214dd'),
-(232, 'hoda', 'kareem.34@yahoo.com', '0b6a4a1f2468f024d0266e8207d51f8f', 'damita', 1, 300, '2021-11-11', 34, ''),
-(233, 'kareem', 'kareem.33@yahoo.com', 'fa9b67723b8a081a14b17493dbc4981b', 'damita', 0, 300, '2021-11-11', 30, ''),
-(238, 'kareem', 'kareem.345@outlook.com', 'fb3d6ab2375fb023b3c904838590e5ad', 'atwi', 0, 300, '2022-02-17', 22, ''),
-(239, 'mohamed', 'mohamed.345@yahoo.com', 'fb3d6ab2375fb023b3c904838590e5ad', 'atwi', 0, 100, '2022-02-18', 31, ''),
-(240, 'hoda', 'hoda.345@yahoo.com', 'fb3d6ab2375fb023b3c904838590e5ad', 'atwi', 1, 300, '2022-02-18', 23, ''),
-(241, 'kareem', 'kareem.510@yahoo.com', 'fb3d6ab2375fb023b3c904838590e5ad', 'atwi', 0, 300, '2022-02-19', 22, '');
+(196, 'kareem', 'example.345@yahoo.com', 'fb3d6ab2375fb023b3c904838590e5ad', 'damietta', 0, 200, '2021-11-10', 34, '6214f549214dd'),
+(238, 'kareem', 'example.345@outlook.com', 'fb3d6ab2375fb023b3c904838590e5ad', 'atwi', 0, 300, '2022-02-17', 22, ''),
+(239, 'mohamed', 'example.510@yahoo.com', 'fb3d6ab2375fb023b3c904838590e5ad', 'atwi', 0, 100, '2022-02-18', 31, ''),
+(241, 'kareem', 'example.555@yahoo.com', 'fb3d6ab2375fb023b3c904838590e5ad', 'atwi', 0, 300, '2022-02-19', 22, '');
 
 -- --------------------------------------------------------
 
@@ -372,8 +369,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `phone`, `address`, `image`) VALUES
-(18, 'mohamed', '1aaea31f1fa87bc7538fc07fef38549a', 'kareem.510@yahoo.com', '10104898439', 'atwi', '621ddfbfc8db6'),
-(19, 'kareem', '1aaea31f1fa87bc7538fc07fef38549a', 'kareem.345@outlook.com', '01047843494', 'atwi', '');
+(18, 'mohamed', '1aaea31f1fa87bc7538fc07fef38549a', 'example.510@yahoo.com', '10104898439', 'atwi', '621ddfbfc8db6'),
+(19, 'kareem', '1aaea31f1fa87bc7538fc07fef38549a', 'example.345@outlook.com', '01047843494', 'atwi', '');
 
 --
 -- Indexes for dumped tables
